@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+</head>
+<body>
+    <form action="#">
+        <input type="number" id="num1">
+        <input type="number" id="num2">
+        <input type="number" id="num3">
+        <div class="flex">
+            <button type="button" onclick="compareMaxTwo()">2 ta sonning eng kattasi</button>
+            <p id="res1"></p>
+        </div>
+        <div class="flex">
+            <button type="button" onclick="compareMinTwo()">2 ta sonning eng kichigi</button>
+            <p id="res2"></p>
+        </div>
+        <div class="flex">
+            <button type="button" onclick="compareMaxThree()">3 ta sonning eng kattasi</button>
+            <p id="res3"></p>
+        </div>
+        <div class="flex">
+            <button type="button" onclick="compareMinThree()">3 ta sonning eng kichigi</button>
+            <p id="res4"></p>
+        </div>
+    </form>
+    <script src="./app.js"></script>
+</body>
+<style>
+    .flex {
+        gap: 10px;
+        display: flex;
+        align-items: center;
+    }
+</style>
+</html>
